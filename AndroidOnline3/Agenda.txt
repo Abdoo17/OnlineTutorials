@@ -1,0 +1,1 @@
+1 Screen supporthttp://developer.android.com/guide/practices/screens_support.html      2-  intentIntent sharingIntent = new Intent(Intent.ACTION_SEND);sharingIntent.setType("text/plain");sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, message);startActivity(Intent.createChooser(sharingIntent, "Share using"));3-Database
